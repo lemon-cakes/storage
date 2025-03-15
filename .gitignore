@@ -1,5 +1,9 @@
 /logs
+/versions
+/libraries
+/crash-reports
 
+.DS_Store
 banned-ips.json
 banned-players.json
 ops.json
