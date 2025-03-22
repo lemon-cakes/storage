@@ -23,6 +23,7 @@
       "minecraft:cherry_grove": "2025-03-11 17:02:18 -0700",
       "minecraft:birch_forest": "2025-03-10 17:00:41 -0700",
       "minecraft:windswept_hills": "2025-03-12 22:01:49 -0700",
+      "minecraft:old_growth_spruce_taiga": "2025-03-21 17:07:15 -0700",
       "minecraft:windswept_savanna": "2025-03-12 21:58:03 -0700",
       "minecraft:badlands": "2025-03-14 23:59:09 -0700",
       "minecraft:flower_forest": "2025-03-11 16:52:29 -0700",
@@ -39,7 +40,8 @@
       "minecraft:swamp": "2025-03-12 21:58:37 -0700",
       "minecraft:meadow": "2025-03-11 16:54:19 -0700",
       "minecraft:savanna": "2025-03-20 15:15:48 -0700",
-      "minecraft:plains": "2025-03-11 00:18:37 -0700"
+      "minecraft:plains": "2025-03-11 00:18:37 -0700",
+      "minecraft:pale_garden": "2025-03-21 16:19:14 -0700"
     },
     "done": false
   },
@@ -518,6 +520,7 @@
       "minecraft:hoglin": "2025-03-11 18:57:18 -0700",
       "minecraft:guardian": "2025-03-19 19:40:15 -0700",
       "minecraft:breeze": "2025-03-20 11:48:56 -0700",
+      "minecraft:vindicator": "2025-03-21 16:27:50 -0700",
       "minecraft:magma_cube": "2025-03-14 15:02:37 -0700",
       "minecraft:spider": "2025-03-10 18:00:22 -0700",
       "minecraft:piglin_brute": "2025-03-11 21:58:26 -0700",
@@ -531,6 +534,7 @@
       "minecraft:piglin": "2025-03-11 15:46:04 -0700",
       "minecraft:enderman": "2025-03-10 18:17:09 -0700",
       "minecraft:silverfish": "2025-03-16 21:24:44 -0700",
+      "minecraft:vex": "2025-03-21 16:41:07 -0700",
       "minecraft:zombie": "2025-03-10 17:13:13 -0700",
       "minecraft:drowned": "2025-03-10 22:42:41 -0700",
       "minecraft:zombie_villager": "2025-03-11 02:41:21 -0700"
@@ -5112,15 +5116,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/brown_dye": {
-    "criteria": {
-      "has_cocoa_beans": "2025-03-20 20:52:27 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2025-03-20 19:33:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-03-20 19:33:13 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-03-20 20:52:27 -0700"
     },
     "done": true
   },
@@ -5130,9 +5140,165 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
+  "minecraft:recipes/building_blocks/blue_ice": {
     "criteria": {
-      "has_slime_ball": "2025-03-20 19:33:13 -0700"
+      "has_packed_ice": "2025-03-21 13:59:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pale_moss_carpet": {
+    "criteria": {
+      "has_pale_moss_block": "2025-03-21 16:19:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
+    "criteria": {
+      "has_log": "2025-03-21 16:19:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
+    "criteria": {
+      "has_log": "2025-03-21 16:19:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_banner": {
+    "criteria": {
+      "has_cyan_wool": "2025-03-21 16:29:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_carpet": {
+    "criteria": {
+      "has_cyan_wool": "2025-03-21 16:29:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed": {
+    "criteria": {
+      "has_cyan_wool": "2025-03-21 16:29:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2025-03-21 16:43:49 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2025-03-21 16:43:49 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2025-03-21 16:43:49 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2025-03-21 16:51:18 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-03-21 17:33:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-03-21 17:33:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-03-21 23:04:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/red_bundle": {
+    "criteria": {
+      "has_red_dye": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2025-03-21 23:04:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-03-21 22:48:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2025-03-21 23:49:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2025-03-21 22:49:55 -0700"
     },
     "done": true
   },
